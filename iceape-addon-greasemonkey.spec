@@ -3,7 +3,7 @@ Summary:	Greasemonkey lets you add Javascript to any web page
 Name:		iceape-addon-%{_realname}
 Version:	0.8.2
 Release:	1
-License:	AS-IS
+License:	BSD-like
 Group:		X11/Applications/Networking
 Source0:	http://downloads.mozdev.org/xsidebar/mods/%{_realname}-%{version}-mod.xpi
 # Source0-md5:	fec6e717552e2e5c9653a0316f6f9d06
@@ -11,7 +11,6 @@ URL:		http://xsidebar.mozdev.org/modifiedmisc.html#greasemonkey
 Requires(post,postun):	iceape >= 1.1
 Requires(post,postun):	textutils
 Requires:	iceape >= 1.1
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_iceapedir	%{_libdir}/iceape
