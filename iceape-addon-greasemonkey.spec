@@ -8,6 +8,7 @@ Group:		X11/Applications/Networking
 Source0:	http://downloads.mozdev.org/xsidebar/mods/%{_realname}-%{version}-mod.xpi
 # Source0-md5:	fec6e717552e2e5c9653a0316f6f9d06
 URL:		http://xsidebar.mozdev.org/modifiedmisc.html#greasemonkey
+BuildRequires:	unzip
 Requires(post,postun):	iceape >= 1.1
 Requires(post,postun):	textutils
 Requires:	iceape >= 1.1
